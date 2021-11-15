@@ -24,12 +24,11 @@ Autonomous vehicles are automobiles that can move without any intervention by de
 The automotive industry is experiencing a paradigm shift from conventional, human-driven vehicles into self-driving, artificial intelligence-powered vehicles. Self-driving vehicles offer a safe, efficient, and cost-effective solution that will dramatically redefine the future of human mobility. Self-driving cars have rapidly become one of the most transformative technologies to emerge. Fuelled, by Deep Learning algorithms, they are continuously driving our society forward and creating new opportunities in the mobility sector.
 
 # 1.1	Scope
-
-Our system will include:
-•	Lane detecting and following
-•	Object recognition
-•	Stop Sign Detection
-•	Traffic Signs Detection
+          Our system will include:                                                                                                                                          
+               •	Lane detecting and following
+               •	Object recognition                                                                                                                                   
+               •	Stop Sign Detection                                                                                                                          
+               •	Traffic Signs Detection
 
 # 1.2	Product Objective
 
