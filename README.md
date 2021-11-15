@@ -196,12 +196,23 @@ http://www.jcreview.com/fulltext/197-1593069401.pdf
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
 
-## Features
+## FeatureS
 
-- Light/dark mode toggle
-- Live previews
-- Fullscreen mode
-- Cross platform
+|  UI  | Logic | Feature |
+| ------ | ------ | ------|
+| ✔ | ✔ | Teacher Login
+| ✔ | ✔ | Student Login
+| ✔ | ✔ | Parent Login
+| ✔ | ✔ | Multiple Child Profile View
+| ✔ | ✔ | Chat between teacher and parent
+| ✔ | ✔ | Intro Screens.
+| ✔ | ✔ | Post photo or notice on Standard post section(Only Teacher)
+| ✔ | ✔ | Post photo or notice on global post section(Only Teacher)
+| ✔ | ✔ | Dark Mode
+| ✔ | ✔ | Profile Setup
+| ✔ | ✔ | Forget Password
+| ✔ |   | TimeTable
+### and many more......
 
 # Conclusion and Future Scope :
 
