@@ -57,22 +57,22 @@ These cars have several advantages, as described below:
                1. Artificial Intelligence based Self-Driving Car
 
 
-                      https://ieeexplore.ieee.org/document/9315223
+                      https://ieeexplore.ieee.org/document/9315223 
 
 
                2. A Survey of Autonomous Driving: Common Practices and Emerging Technologies
 
-                      https://ieeexplore.ieee.org/document/9046805
+                      https://ieeexplore.ieee.org/document/9046805 
 
 
 
               3.	IoT based Self Driving Car
 
-                     https://www.irjet.net/archives/V7/i3/IRJET-V7I31037.pdf
+                     https://www.irjet.net/archives/V7/i3/IRJET-V7I31037.pdf 
 
 
               4. AN INTRODUCTION OF AUTONOMOUS VEHICLES AND A BRIEF SURVEY                                                                                                               
-                     http://www.jcreview.com/fulltext/197-1593069401.pdf
+                     http://www.jcreview.com/fulltext/197-1593069401.pdf 
 
 
 # 2.  Product Perspective
