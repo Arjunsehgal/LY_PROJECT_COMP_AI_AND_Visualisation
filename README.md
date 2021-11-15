@@ -158,6 +158,6 @@ Video tutorials will help users with getting started and exploring all project f
 
 # Specification 
 ## 1 motor And Vehicle  
-    ![alt text](https://github.com/[Arjunsehgal]/[LY_PROJECT_COMP_AI_AND_Visualisation]/blob/[branch]/image.jpg?raw=true)
+    ![alt text](https://github.com/Arjunsehgal/LY_PROJECT_COMP_AI_AND_Visualisation/blob/master/images/motor%20ly.JPG?raw=true)
     
 
