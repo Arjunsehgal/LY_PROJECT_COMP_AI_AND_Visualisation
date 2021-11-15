@@ -55,9 +55,8 @@ These cars have several advantages, as described below:
 # 1.3	References
 
                1. Artificial Intelligence based Self-Driving Car
-
-
-                      https://ieeexplore.ieee.org/document/9315223 
+               
+                     https://ieeexplore.ieee.org/document/9315223 
 
 
                2. A Survey of Autonomous Driving: Common Practices and Emerging Technologies
