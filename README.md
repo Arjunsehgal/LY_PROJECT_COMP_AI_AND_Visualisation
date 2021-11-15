@@ -159,5 +159,8 @@ Video tutorials will help users with getting started and exploring all project f
 # Specification 
 ## 1 motor And Vehicle  
    ![alt text](https://github.com/Arjunsehgal/LY_PROJECT_COMP_AI_AND_Visualisation/blob/master/images/motor%20ly.JPG?raw=true "")
+   
+## Raspberry pi model and camera
+<img src="https://user-images.githubusercontent.com/59222712/141790750-f9622e5b-d4fd-449e-9ae5-00f6b41796cf.jpg" width="45%"></img> <img src="https://user-images.githubusercontent.com/59222712/141790756-f5243e76-bbec-402a-8d21-3cad7243ae6a.jpg" width="45%"></img> 
     
 
