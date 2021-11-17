@@ -307,12 +307,17 @@ http://www.jcreview.com/fulltext/197-1593069401.pdf
 
       USEFUL LINKS :
        
-<p align="center">
+<p align="left">
   <kbd>
   <img src="https://github.com/Arjunsehgal/LY_PROJECT_COMP_AI_AND_Visualisation/blob/master/images/raspberrypi.jpg" width="600" height= "400" style="border: 1px solid      black" />
     </kbd>
    </p>
-
+   
+   <p align="right">
+  <kbd>
+    <img src="https://projects-static.raspberrypi.org/projects/raspberry-pi-setting-up/0d6033edf45ad2d4185ed05d6cd9a01e2f803034/en/images/pi-plug-in.gif" width="600" height= "400" />
+    </kbd>
+   </p>
 
     d. raspberry pi camera :
         1. Resolution: 5 MP
