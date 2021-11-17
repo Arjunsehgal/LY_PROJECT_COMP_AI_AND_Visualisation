@@ -137,10 +137,54 @@ http://www.jcreview.com/fulltext/197-1593069401.pdf
 # Hardware Components :
    
     a. motor :
-         1.
+        1. Low density: lightweight, low inertia.
+        2. Capability to absorb shock and vibration as a result of elastic compliance.
+        3. Ability to operate with minimum or no lubrication, due to inherent lubricity.
+        4. The relatively low coefficient of friction.
+        5. Operating Voltage(VDC): 3~12
+        6. Shaft Length (mm): 8.5
+        7. Shaft Diameter (mm): 5.5 (Double D-type)
+        8. No Load Current: 40-180mA.
+        9. Rated Speed(After Reduction): 100 RPM
+        10. Rated Torque: 0.35 Kgcm
 
-![App Screenshot](https://user-images.githubusercontent.com/59222712/141791449-4b6f3a17-938c-442f-a1ab-192d5aea20f7.JPG )
+        specification :
+    1. The 100 RPM Dual Shaft BO Motor Plastic Gear Motor – BO series straight motor gives good torque and rpm at lower operating voltages, which is the biggest advantage of these motors.
+    2. Small shaft with matching wheels gives an optimized design for your application or robot. Mounting holes on the body & light weight makes it suitable for in-circuit placement. 
+    3. This motor can be used with 69mm Diameter Wheel for Plastic Gear Motors and 87mm Diameter Multipurpose Wheel for Plastic Gear Motors.
+    4. Low-cost geared DC Motor. It is an alternative to our metal gear DC motors. It comes with an operating voltage of 3-12V and is perfect for building small and medium robots.
+    5. The motor is ideal for DIY enthusiasts. This motor set is inexpensive, small, easy to install, and ideally suited for use in a mobile robot car. They are commonly used in our 2WD platforms
+          
+    
+    | SPECIFICATION                       | OF UNITS
+    ------------------------------------------------
+    | Operating Voltage (VDC)	          | 3 ~ 12
+    | Shaft Length (mm)	                  | 8.5
+    | Shaft Diameter (mm)|(Double D-type)    | 5.5
+    | No Load Current (mA)	              | 40-180mA.
+    | Rated Speed After Reduction (RPM)   |	100
+    | Rated Torque (Kg-Cm)	              |0.35
+    | Weight (gm)	                      | 30
+    | Dimensions in mm (LxWxH)	          | 70 x 23 x 19
+    | Gearbox Shape	                      | Straight
+    | Shipment Weight	                  | 0.033 kg
+    | Shipment Dimensions	              | 8 × 4 × 4 cm
 
+        Features :
+      1. Cost-effectiveness of the injection-molding process.
+      2. Elimination of machining operations.
+      3. Low density: lightweight, low inertia.
+      4. Uniformity of parts.
+      5. Capability to absorb shock and vibration as a result of elastic compliance.
+      6. Ability to operate with minimum or no lubrication, due to inherent lubricity.
+      7. The relatively low coefficient of friction.
+      8. Corrosion-resistance; elimination of plating, or protective coatings.
+      9. The quietness of operation.
+      10. Tolerances often less critical than for metal gears, due in part to their greater resilience.
+      11. Consistency with the trend to greater use of plastic housings and other components.
+  <p align="center">
+  <img src="https://user-images.githubusercontent.com/59222712/141791449-4b6f3a17-938c-442f-a1ab-192d5aea20f7.JPG" width="400" height= "400" />
+   </p>                                                                                                                                                                              
     b. vehicle :
 
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
