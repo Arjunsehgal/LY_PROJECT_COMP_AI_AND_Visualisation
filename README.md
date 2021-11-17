@@ -503,9 +503,75 @@ http://www.jcreview.com/fulltext/197-1593069401.pdf
                                                CIRCUIT CONNECTION :
 <p align="center">
   <kbd>
-  <img src="https://github.com/Arjunsehgal/LY_PROJECT_COMP_AI_AND_Visualisation/blob/master/images/arduino%20uno.JPG" width="600" height= "400" style="border: 1px solid      black" />
+  <img src="https://github.com/Arjunsehgal/LY_PROJECT_COMP_AI_AND_Visualisation/blob/master/images/connection%20OF%20all.JPG" width="600" height= "400" style="border: 1px solid      black" />
     </kbd>
    </p>
+   
+                                        Usage:
+
+    H-bridges are typically used in controlling motors speed and direction but can be used for other projects such as driving the brightness of certain lighting projects such as high powered LED arrays.
+
+                                        How it works:
+
+    a. An H-Bridge is a circuit that can drive a current in either polarity and be controlled by *Pulse Width Modulation (PWM).
+    b. Pulse Width Modulation is a means in controlling the duration of an electronic pulse. In motors try to imagine the brush as a water wheel and electrons as the flowing droplets of water. 
+       The voltage would be the water flowing over the wheel at a constant rate, the more water flowing the higher the voltage. 
+       Motors are rated at certain voltages and can be damaged if the voltage is applied to heavily or if it is dropped quickly to slow the motor down. 
+       Thus PWM. Take the water wheel analogy and think of the water hitting it in pulses but at a constant flow. The longer the pulses the faster the wheel will turn, the shorter the pulses, the slower the water wheel will turn. 
+       Motors will last much longer and be more reliable if controlled through PWM.
+
+                                          Pins Details :
+        Out 1: Motor A lead out
+        Out 2: Motor A lead out
+        Out 3: Motor B lead out
+        Out 4: Mo (Can actually be from 5v-35v, just marked as 12v)
+        GND: Ground
+        5v: 5v input (unnecessary if your power source is 7v-35v, if the power source is 7v-35v then it can act as a 5v out)
+        EnA: Enables PWM signal for Motor A (Please see the “Arduino Sketch Considerations” section)
+        In1: Enable Motor A
+        In2: Enable Motor A
+        In3: Enable Motor B
+        In4: Enable Motor B
+        EnB: Enables PWM signal for Motor B (Please see the “Arduino Sketch Considerations” section)
+    Two things to mention;
+    1. Make sure you have all of your grounds tied together; Arduino, Power source, and the Motor Controller.
+    2. The PWM Pins are unnecessary if you do not want to control PWM features.
+
+                                    ARDUINO SKETCH CONSIDERATIONS :
+
+    1. The Arduino code sketch is pretty straightforward. Since there isn’t a library for the L298N Dual H-Bridge Motor Controller you just have to declare which pins the controller is hooked to.
+    2. The “int dir(number)Pin(letter)”‘ pins can be connected to any available digital pin you have available, as long as you declare the correct pin in your sketch. This makes the L298N Dual H-Bridge Motor Controller very versatile if your project is using a lot of Arduino pins.
+    3. The int“speedPin(letter)” pins need to be connected to a PWM pin on the Arduino if you want to enable speed control through PWM.
+    4. As a quick cheat I have included a list of PWM pins for the main two types of Arduino’s I use:
+
+    AT MEGA – PWM: 2 to 13 and 44 to 46. Provide 8-bit PWM output with the analogWrite() function.
+    UNO – PWM: 3, 5, 6, 9, 10, and 11. Provide 8-bit PWM output with the analogWrite() function. 
+
+
+    SPECIFICATION OF L298N BRIDGE
+    Driver Model	L298N 2A
+    Operating Voltage (VDC)	   5 ~ 35
+    Peak Current (A)	 2
+    Continuous Current (A)	 0-36mA
+    No. of Channels 2
+    Over-Current Protection (A)	Yes
+    Thermal Protection	 Yes
+    LED Indicator	 Yes
+    Cooling Fan	 No
+    Arduino Sheild	No- can be used with Wire connection
+    Dimensions in mm (LxWxH)	 44 x 44 x 28
+    Weight (gm)	                    25
+    Max powerÂ            25W.
+    Shipment Weight	         0.03 kg
+    Shipment Dimensions	        7 × 7 × 3 cm
+
+
+      FEATURES : 
+    1. Maximum motor supply current: 2A per motor.
+    2. Current Sense for each motor.
+    3. Heatsink for better performance.
+    4. Power-On LED indicator.
+    5. Double H bridge Drive Chip: L298N.
 
 # software Components :
 
