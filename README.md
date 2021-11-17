@@ -295,14 +295,14 @@ http://www.jcreview.com/fulltext/197-1593069401.pdf
     | Shipment Dimensions	      | 12 × 5 × 3 cm
 
        Features :
-       1. Supported Video Formats: 1080p @ 30fps, 720p @ 60fps and 640x480p 60/90 video
-       2. Fully Compatible with Raspberry Pi 3 and 4Model B.
-       3. Small and lightweight camera module.
-       4. Plug-n-Play camera for Raspberry Pi 3 and 4 Model B.
+    1. Supported Video Formats: 1080p @ 30fps, 720p @ 60fps and 640x480p 60/90 video
+    2. Fully Compatible with Raspberry Pi 3 and 4Model B.
+    3. Small and lightweight camera module.
+    4. Plug-n-Play camera for Raspberry Pi 3 and 4 Model B.
        
 <p align="center">
   <kbd>
-  <img src="https://github.com/Arjunsehgal/LY_PROJECT_COMP_AI_AND_Visualisation/blob/master/images/vehicle.JPG" width="600" height= "400" style="border: 1px solid      black" />
+  <img src="https://github.com/Arjunsehgal/LY_PROJECT_COMP_AI_AND_Visualisation/blob/master/images/camera.JPG" width="600" height= "400" style="border: 1px solid      black" />
     </kbd>
    </p>
  
