@@ -486,9 +486,11 @@ Please adhere to this project's `code`.
 
 ## Demo
 
-Insert gif or link to demo
-
-
+**1. INTRO TO RASPBERRY PI :** 
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=NNwoqEybOqg"><img src="https://img.youtube.com/vi/NNwoqEybOqg/0.jpg" alt="Click Here TO Watch"></a>
+</div>
+ 
 ## Deployment
 
 To deploy this project run
@@ -497,27 +499,23 @@ To deploy this project run
   npm run deploy
 ```
 
+
 # Documentation to get start with :
 
-1. [**Downloads from Raspberry Pi**](https://www.raspberrypi.com/software/)
+# 1. Raspberry Pi Model : 
 
-2. [**Setting up your Raspberry Pi**](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up)
-
-3. [**Raspberry Pi Acessories**](https://robu.in/product-category/raspberry-pi/pi-accessories/)
-
-4. [**RASPBERRY PI 3 MODEL B+ PRODUCT BRIEF**](https://static.raspberrypi.org/files/product-briefs/Raspberry-Pi-Model-Bplus-Product-Brief.pdf)
-
-5. [**RASPBERRY PI 3 MODEL B+ SCHEMATIC DIAGRAMS**](https://datasheets.raspberrypi.com/rpi3/raspberry-pi-3-b-plus-reduced-schematics.pdf)
+a. [**Downloads from Raspberry Pi**](https://www.raspberrypi.com/software/)   
+b. [**Setting up your Raspberry Pi**](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up)     
+c. [**Raspberry Pi Acessories**](https://robu.in/product-category/raspberry-pi/pi-accessories/)   
+d. [**RASPBERRY PI 3 MODEL B+ PRODUCT BRIEF**](https://static.raspberrypi.org/files/product-briefs/Raspberry-Pi-Model-Bplus-Product-Brief.pdf)   
+e. [**RASPBERRY PI 3 MODEL B+ SCHEMATIC DIAGRAMS**](https://datasheets.raspberrypi.com/rpi3/raspberry-pi-3-b-plus-reduced-schematics.pdf)
 
 ## RELATED ARTICLES TO DEEP DIVE:
  
-1. [**BLINKING LED USING GPIO PINS OF RASPBERRYPI**](https://robu.in/blinking-led-using-gpio-pins-of-raspberrypi/)
-
-2. [**DEVELOPING SIMPLE GUI USING “TKINTER” TO CONTROL GPIO’S OF RASPBERRY PI**](https://robu.in/developing-simple-gui-using-tkinter-to-control-gpios-of-raspberry-pi/)
-
-3. [**INSTALLING ANY REQUIRED OS ON SD CARD FOR RASPBERRYI PI**](https://robu.in/installing-any-required-os-on-sd-card-for-raspberryi-pi/)
-
-4. [**USING PHONE/LAPTOP AS DISPLAY FOR RASPBERRY PI HEADLESS MODE**](https://robu.in/using-laptop-android-as-raspberry-pi-display/)
+a. [**BLINKING LED USING GPIO PINS OF RASPBERRYPI**](https://robu.in/blinking-led-using-gpio-pins-of-raspberrypi/)   
+b. [**DEVELOPING SIMPLE GUI USING “TKINTER” TO CONTROL GPIO’S OF RASPBERRY PI**](https://robu.in/developing-simple-gui-using-tkinter-to-control-gpios-of-raspberry-pi/)   
+c. [**INSTALLING ANY REQUIRED OS ON SD CARD FOR RASPBERRYI PI**](https://robu.in/installing-any-required-os-on-sd-card-for-raspberryi-pi/)   
+d. [**USING PHONE/LAPTOP AS DISPLAY FOR RASPBERRY PI HEADLESS MODE**](https://robu.in/using-laptop-android-as-raspberry-pi-display/)
 
 
 ## FAQ
