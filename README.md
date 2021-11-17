@@ -397,6 +397,28 @@ http://www.jcreview.com/fulltext/197-1593069401.pdf
     2. We have used plenty of these low-cost Arduino boards with CH340 chips, and have found them to work perfectly. 
        The only time the CH340 chip is used is during programming and when using the serial output of the USB port. During normal operation, this board is identical to the more expensive version without CH340 chip.
 
+    | SPECIFICATION OF ARDUINO UNO
+    -----------------------------------------------------------------------
+    | Microcontroller Chip	           | ATmega328 (SMD) – Interface CH340G
+    | Operating Voltage	           | 5 V
+    | Input Voltage(Recommended)	   | 7-12V
+    | Input Voltage (limit)	           | 6-20V
+    | Analog I/O Pins	           | 6
+    | Digital I/O Pins	           | 14 (of which 6 provide PWM output)
+    | PWM Digital I/O Pins	           | 6
+    | DC Current for 3.3V Pin	   | 50 mA
+    | DC Current per I/O Pin	   | 40 mA
+    | Clock Speed	                   | 16 MHz
+    | SRAM	                           | 2 KB (ATmega328)
+    | EEPROM	                   | 1 KB (ATmega328)
+    | Flash Memory	                   | 32 KB (ATmega328) of which 0.5 KB used by bootloader
+    | Power Supply Option	           | DC Jack or USB
+    | On Board LEDs	                   | On/Off, L (PIN 13), TX, RX
+    | Operating Temperature (°C)	   | -40 to +90
+    | Dimensions in mm (LxWxH)	   | 75 x 54 x 12
+    | Weight (gm)	                   | 26
+    | Shipment Weight	           | 0.16 kg
+    | Shipment Dimensions	           | 12 × 8 × 4 cm
        
        How to use:
             1. Download the IDE Arduino
@@ -455,12 +477,35 @@ http://www.jcreview.com/fulltext/197-1593069401.pdf
     
 <p align="center">
   <kbd>
-  <img src="https://github.com/Arjunsehgal/LY_PROJECT_COMP_AI_AND_Visualisation/blob/master/images/raspberry-pi-camera.jpg" width="600" height= "400" style="border: 1px solid      black" />
+  <img src="https://github.com/Arjunsehgal/LY_PROJECT_COMP_AI_AND_Visualisation/blob/master/images/arduino%20uno.JPG" width="600" height= "400" style="border: 1px solid      black" />
     </kbd>
    </p>
 
     f. L298n Bridge :
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+        1. Current Sense for each motor.
+        2. Heatsink for better performance.
+        3. Power-On LED indicator.
+        4. Double H bridge Drive Chip: L298N.
+        5. Operating Voltage(VDC): 5~35
+        6. Peak Current (A): 2
+        7. Continuous Current (A): 0-36mA
+        8. No. of Channels: 2
+        9. Over-Current Protection (A): Yes
+        10. Thermal Protection: Yes 
+
+      Specification :
+    1. L298N 2A Based Motor Driver is a high power motor driver perfect for driving DC Motors and Stepper Motors.
+    2. It uses the popular L298 motor driver IC and has an onboard 5V regulator which it can supply to an external circuit. 
+       It can control up to 4 DC motors, or 2 DC motors with directional and speed control.
+    3. This motor driver is perfect for robotics and mechatronics projects and perfect for controlling motors from microcontrollers, switches, relays, etc. 
+       Perfect for driving DC and Stepper motors for micro mouse, line following robots, robot arms, etc.
+
+                                               CIRCUIT CONNECTION :
+<p align="center">
+  <kbd>
+  <img src="https://github.com/Arjunsehgal/LY_PROJECT_COMP_AI_AND_Visualisation/blob/master/images/arduino%20uno.JPG" width="600" height= "400" style="border: 1px solid      black" />
+    </kbd>
+   </p>
 
 # software Components :
 
@@ -580,6 +625,9 @@ To deploy this project run
 
 # Documentation to get start with :
 
+
+# Documentation to get start with :
+
 # 1. Raspberry Pi Model : 
 
 a. [**Downloads from Raspberry Pi**](https://www.raspberrypi.com/software/)   
@@ -588,12 +636,24 @@ c. [**Raspberry Pi Acessories**](https://robu.in/product-category/raspberry-pi/p
 d. [**RASPBERRY PI 3 MODEL B+ PRODUCT BRIEF**](https://static.raspberrypi.org/files/product-briefs/Raspberry-Pi-Model-Bplus-Product-Brief.pdf)   
 e. [**RASPBERRY PI 3 MODEL B+ SCHEMATIC DIAGRAMS**](https://datasheets.raspberrypi.com/rpi3/raspberry-pi-3-b-plus-reduced-schematics.pdf)
 
-## RELATED ARTICLES TO DEEP DIVE:
+### RELATED ARTICLES TO DEEP DIVE:
  
 a. [**BLINKING LED USING GPIO PINS OF RASPBERRYPI**](https://robu.in/blinking-led-using-gpio-pins-of-raspberrypi/)   
 b. [**DEVELOPING SIMPLE GUI USING “TKINTER” TO CONTROL GPIO’S OF RASPBERRY PI**](https://robu.in/developing-simple-gui-using-tkinter-to-control-gpios-of-raspberry-pi/)   
 c. [**INSTALLING ANY REQUIRED OS ON SD CARD FOR RASPBERRYI PI**](https://robu.in/installing-any-required-os-on-sd-card-for-raspberryi-pi/)   
 d. [**USING PHONE/LAPTOP AS DISPLAY FOR RASPBERRY PI HEADLESS MODE**](https://robu.in/using-laptop-android-as-raspberry-pi-display/)
+
+
+# 2. Arduino UNO :
+ 
+a. [**Downloads from Arduino - IDE**](https://www.arduino.cc/en/software)       
+b. [**DATASHEET ARDUINO UNO R3**](https://robu.in/wp-content/uploads/2017/11/2Fds2Fpdf2FU2FUNO_R3CH340G.pdf)
+ 
+### RELATED ARTICLES TO DEEP DIVE:
+
+a. [**TEMPERATURE SENSOR INTERFACING WITH ARDUINO PROJECT – CONNECTIONS AND CODE**](https://robu.in/temperature-sensor-interfacing-arduino/)
+
+
 
 
 ## FAQ
