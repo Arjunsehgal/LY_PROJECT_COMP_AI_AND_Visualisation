@@ -379,7 +379,85 @@ http://www.jcreview.com/fulltext/197-1593069401.pdf
    </p>
  
     e. arduino uno :
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+        1. A basic Arduino Kit including everything to get started.
+        2. It includes a quality proven Arduino Cable.
+        3. It includes a strong and sturdy Transparent Acrylic Case.
+        4. Microcontroller ATmega328 (SMD) – Interface CH340G
+        5. Operating Voltage: 5V
+        6. Input Voltage (recommended): 7-12V
+        7. Digital I / O Pins 14 (of which 6 provide PWM output)
+        8. Analog Input Pins: 6
+      
+      Specifications :
+    1. This is UNO R3 CH340G ATMega328P compatible with Arduino + Cable + Transparent Acrylic Case For Uno R3. 
+       A basic Arduino kit with all the components included eliminating the time our customers for finding and buying Arduino ant its basic accessories.
+       Uno R3 CH340G ATmega328p Development Board is the low-cost version of the popular Uno R3 Arduino. 
+       It is assembled with the CH340 USB to Serial converter chip, instead of using an Atmega16U2 chip.
+
+    2. We have used plenty of these low-cost Arduino boards with CH340 chips, and have found them to work perfectly. 
+       The only time the CH340 chip is used is during programming and when using the serial output of the USB port. During normal operation, this board is identical to the more expensive version without CH340 chip.
+
+       
+       How to use:
+            1. Download the IDE Arduino
+
+    Link: http://arduino.cc/en/Main/Software (Copy to open)
+
+            2. Download the USB chip driver
+
+    Link: http://www.5v.ru/zip/ch341ser.zip (Copy to open)
+
+            3. Plug in UNO development board, the driver will be installed automatically
+
+            4. Select the UNO from the die
+
+            5. Select the COM port
+
+            6. The best choice first, Arduino comes with routine procedures, burn into it.
+        
+    FEATURES :
+    a. UNO R3 Arduino CH340G :
+
+        1. Microcontroller ATmega328 (SMD) – Interface CH340G
+        2. Operating Voltage: 5V
+        3. Input Voltage (recommended): 7-12V
+        4. Input Voltage (limits): 5-20V
+        5. Digital I / O Pins 14 (of which 6 provide PWM output)
+        6. Analog Input Pins: 6
+        7. DC Current per I Pin: 40 mA
+        8. DC Current for 3.3V Pin: 50 mA
+        9. Flash Memory: 32 KB (ATmega328) of which 0.5 KB used by bootloader
+        10. SRAM: 2 KB (ATmega328)
+        11. EEPROM: 1 KB (ATmega328)
+        12. Clock Speed: 16 MHz
+
+    b. Cable for UNO Arduino:
+
+        1. Length 1 foot
+        2. Hot Pluggable.
+        3. Fully compatible with the PC.
+        4. Molded strain relief and PVC overmolding to ensure a lifetime of error-free data transmissions.
+        5. Aluminum under-mold shield helps meet FCC requirements on KMI/RFI interference.
+        6. Foil and braid shield complies with fully rated cable specifications reducing EMI/FRI interference.
+        7. For Error-Free High-Performance Transmission.
+
+    c. Transparent acrylic case:
+
+        1. Weight: 53 gm.
+        2. Dimensions : 79.5 x 64.5 x 21 mm.
+        3. Material: A grade acrylic sheet.
+        4. For UNO R3 Development Board only.
+        5. With screw copper pillar and installation instructions.
+        6. To protect your little computer against damages, dust and scratches Clear Top and Bottom.
+        7. This case provides easy access to all ports.
+        8. It requires no tools for easy assembly and disassembly.
+        9. Simply Clicks Together Enclosure.
+    
+<p align="center">
+  <kbd>
+  <img src="https://github.com/Arjunsehgal/LY_PROJECT_COMP_AI_AND_Visualisation/blob/master/images/raspberry-pi-camera.jpg" width="600" height= "400" style="border: 1px solid      black" />
+    </kbd>
+   </p>
 
     f. L298n Bridge :
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
