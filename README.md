@@ -305,7 +305,7 @@ http://www.jcreview.com/fulltext/197-1593069401.pdf
         12. 5V/2.5A DC power input
         13. Power-over-Ethernet (PoE) support (requires separate PoE HAT)
 
-      USEFUL LINKS :
+      USEFUL LINKS : Read below the documentation part
        
 <p align="center">
   <kbd>
@@ -497,10 +497,27 @@ To deploy this project run
   npm run deploy
 ```
 
+# Documentation to get start with :
 
-## Documentation
+1. [**Downloads from Raspberry Pi**](https://www.raspberrypi.com/software/)
 
-[Documentation](https://linktodocumentation)
+2. [**Setting up your Raspberry Pi**](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up)
+
+3. [**Raspberry Pi Acessories**](https://robu.in/product-category/raspberry-pi/pi-accessories/)
+
+4. [**RASPBERRY PI 3 MODEL B+ PRODUCT BRIEF**](https://static.raspberrypi.org/files/product-briefs/Raspberry-Pi-Model-Bplus-Product-Brief.pdf)
+
+5. [**RASPBERRY PI 3 MODEL B+ SCHEMATIC DIAGRAMS**](https://datasheets.raspberrypi.com/rpi3/raspberry-pi-3-b-plus-reduced-schematics.pdf)
+
+## RELATED ARTICLES TO DEEP DIVE:
+ 
+1. [**BLINKING LED USING GPIO PINS OF RASPBERRYPI**](https://robu.in/blinking-led-using-gpio-pins-of-raspberrypi/)
+
+2. [**DEVELOPING SIMPLE GUI USING “TKINTER” TO CONTROL GPIO’S OF RASPBERRY PI**](https://robu.in/developing-simple-gui-using-tkinter-to-control-gpios-of-raspberry-pi/)
+
+3. [**INSTALLING ANY REQUIRED OS ON SD CARD FOR RASPBERRYI PI**](https://robu.in/installing-any-required-os-on-sd-card-for-raspberryi-pi/)
+
+4. [**USING PHONE/LAPTOP AS DISPLAY FOR RASPBERRY PI HEADLESS MODE**](https://robu.in/using-laptop-android-as-raspberry-pi-display/)
 
 
 ## FAQ
