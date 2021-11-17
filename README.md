@@ -141,12 +141,17 @@ http://www.jcreview.com/fulltext/197-1593069401.pdf
         2. Capability to absorb shock and vibration as a result of elastic compliance.
         3. Ability to operate with minimum or no lubrication, due to inherent lubricity.
         4. The relatively low coefficient of friction.
-        5. Operating Voltage(VDC): 3~12
-        6. Shaft Length (mm): 8.5
-        7. Shaft Diameter (mm): 5.5 (Double D-type)
-        8. No Load Current: 40-180mA.
+        5. Operating Voltage(VDC): 3~6 v (DC)
+        6. Shaft Length (mm): 10mm
+        7. Shaft Diameter (mm): 6mm (Double D-type)
+        8. No Load Current: 40-180mA. 
+        9. Load current: 170mA (when it is 4.5V)
         9. Rated Speed(After Reduction): 100 RPM
-        10. Rated Torque: 0.35 Kgcm
+        10. Rated Torque: 0.8 Kg.cm
+        11. Gear Ratio: 1:48
+        12. No-load speed(5V): about 208RPM @ 5 volts
+        14. Size: 70 x 23  x 18 mm
+        15. Weight:28g
 
         specification :
     1. The 100 RPM Dual Shaft BO Motor Plastic Gear Motor – BO series straight motor gives good torque and rpm at lower operating voltages, which is the biggest advantage of these motors.
@@ -158,18 +163,18 @@ http://www.jcreview.com/fulltext/197-1593069401.pdf
     
     | SPECIFICATION                       | OF UNITS
     ------------------------------------------------
-    | Operating Voltage (VDC)	          | 3 ~ 12
-    | Shaft Length (mm)	                  | 8.5
-    | Shaft Diameter (mm)|(Double D-type)    | 5.5
+    | Operating Voltage (VDC)	      | 3 ~ 6
+    | Shaft Length (mm)	              | 10
+    | Shaft Diameter (mm)|(Double D-type) | 6
     | No Load Current (mA)	              | 40-180mA.
     | Rated Speed After Reduction (RPM)   |	100
-    | Rated Torque (Kg-Cm)	              |0.35
+    | Rated Torque (Kg-Cm)	              | 0.8
     | Weight (gm)	                      | 30
-    | Dimensions in mm (LxWxH)	          | 70 x 23 x 19
+    | Dimensions in mm (LxWxH)	      | 70 x 23 x 19
     | Gearbox Shape	                      | Straight
-    | Shipment Weight	                  | 0.033 kg
+    | Shipment Weight	              | 0.033 kg
     | Shipment Dimensions	              | 8 × 4 × 4 cm
-
+    
         Features :
       1. Cost-effectiveness of the injection-molding process.
       2. Elimination of machining operations.
