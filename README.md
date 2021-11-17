@@ -152,16 +152,6 @@ http://www.jcreview.com/fulltext/197-1593069401.pdf
         12. No-load speed(5V): about 208RPM @ 5 volts
         14. Size: 70 x 23  x 18 mm
         15. Weight:28g
-        
-    b. Wheel :
-        1. Loading Capacity: Max 2.5Kg
-        2. Double D-hole For BO Motor: 6 mm
-        3. Weight: 34g
-        4. Wheel Diameter: 65 mm
-        5. Color: Black (Tyre), Yellow (Rim)
-        6. Wheel width: 27 mm
-        7. Body Material: Plastic
-        8. Grip Material: Rubber
 
         specification :
     1. The 100 RPM Dual Shaft BO Motor Plastic Gear Motor – BO series straight motor gives good torque and rpm at lower operating voltages, which is the biggest advantage of these motors.
@@ -197,6 +187,30 @@ http://www.jcreview.com/fulltext/197-1593069401.pdf
       9. The quietness of operation.
       10. Tolerances often less critical than for metal gears, due in part to their greater resilience.
       11. Consistency with the trend to greater use of plastic housings and other components.
+      
+      b. Wheel :
+        1. Loading Capacity: Max 2.5Kg
+        2. Double D-hole For BO Motor: 6 mm
+        3. Weight: 34g
+        4. Wheel Diameter: 65 mm
+        5. Color: Black (Tyre), Yellow (Rim)
+        6. Wheel width: 27 mm
+        7. Body Material: Plastic
+        8. Grip Material: Rubber
+        
+    | SPECIFICATION OF WHEEL           | IN UNITS 
+    -----------------------------------------------
+    | Color	                           | Black (Tyre) && Yellow (Rim)
+    | Internal Diameter(ID)(mm)	   | 51
+    | Load Capacity(Kg/Wheel)	   | 2.5
+    | Tyre Grip Material	           | Rubber
+    | Wheel Body Material	           | Plastic
+    | Wheel Diameter(mm)	           | 65
+    | Wheel Width (mm)	           | 27
+    | Weight(gm)	                   | 34 (each)
+    | Shipment Weight	           | 0.4 kg
+    | Shipment Dimensions	           | 30 × 18 × 5 cm
+      
   <p align="center">
   <kbd>
   <img src="https://github.com/Arjunsehgal/LY_PROJECT_COMP_AI_AND_Visualisation/blob/master/images/motor%20and%20wheel.JPG" width="600" height= "400" style="border: 1px solid      black" />
