@@ -244,8 +244,75 @@ http://www.jcreview.com/fulltext/197-1593069401.pdf
     </kbd>
    </p>
 
-    c. raspberry pi 3B+ model
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+    c. raspberry pi 3B+ model :
+       1. 64-bit SoC @ 1.4GHz
+       2. 1GB LPDDR2 SDRAM
+       3. 2.4GHz and 5GHz IEEE 802.11.b/g/n/ac wireless LAN, Bluetooth 4.2, BLE
+       4. Gigabit Ethernet over USB 2.0 (maximum throughput of 300 Mbps)
+       5. Extended 40-pin GPIO header, Full-size HDMI
+       6. 4 USB 2.0 ports
+       7. CSI camera port, DSI display port for connecting a Raspberry Pi touchscreen display
+       8. 4-pole stereo output and composite video port
+
+       specification : 
+    1. The Raspberry Pi 3 Model B+ is the latest product in the Raspberry Pi 3 range, boasting a 64-bit quad-core processor running at 1.4GHz, dual-band 2.4GHz, and 5GHz wireless LAN, Bluetooth 4.2/BLE, faster Ethernet, and PoE capability via a separate PoE HAT.
+    2. The secret sauce that makes this computer so small and powerful is the Broadcom BCM2837, an ARM Cortex-A53 64-bit Quad-Core Processor System-on-Chip operating at 1.4GHz. 
+       The GPU provides OpenGL ES 2.0, hardware-accelerated OpenVG and 1080p30 H.264 high-profile decode. 
+       It is capable of 1Gpixel/s, 1.5Gtexel/s or 24 GFLOPs of a general-purpose computer. It means that if you plug the Raspberry Pi 3 B+ into your HDTV, you could watch Blu-ray quality video, using H.264 at 40MBits/s.
+    3. The Raspberry Pi 3 B+ has four built-in USB ports that provide enough connectivity for a mouse, keyboard or anything else that you feel the RPi needs. 
+       But if you want to add even more, you can still use a USB hub. Keep in mind, it is recommended that you use a powered hub so as not to overtax the onboard voltage regulator. 
+       Powering the Raspberry Pi 3 B+ is easy just plug and Play with 5V/2.5A USB power supply into the micro USB port. 
+       There’s no power button, so the RPi will begin to boot as soon as power is applied. To turn it off, simply shut down the Pi 3 B+, then remove power. 
+       The four built-in USB ports can even output up to 1.2A, enabling you to connect more power-hungry USB devices.
+     
+    | SPECIFICATION OF MODEL  
+    ------------------------------------------------------------   
+    | Model	                           | Raspberry Pi 3 Model B+
+    | Processor	                       | Broadcom BCM2837B0, Cortex-A53 (ARMv8) 64-bit SoC @ 1.4GHz
+    | RAM	                           | 1GB LPDDR2
+    | Connectivity	                   | Gigabit Ethernet over USB 2.0
+    | Operating Power	               | 5V/2.5A DC
+    | GPIO	                           | Standard 40-pin GPIO Header
+    | Video and Sound	               | 2-Lane MIPI DSI Display Port
+    | Clock Speed	                   | 1.4 GHz
+    |On Board Ports	                   | 15-pin MIPI Camera Serial Interface (CSI-2)
+                                       | 4 x USB 2.0 Connector
+                                       | 4-pole stereo output and composite video port
+                                       | 40-pin 2.54 mm (2×20 strip) GPIO
+                                       | Full-size HDMI Output Port
+    | Micro-SD Card Slot	           | Yes (FAT32 format), support maximum 32G Micro SD Card
+    | Operating Temperature Range (°C) | -10 to 60
+    | Weight (gm)	                   | 44
+    | Length (mm)	                   | 85
+    | Width (mm)	                   | 56
+    | Height (mm)	                   | 23
+    | HDMI Port	                       | Full Size
+    | Shipment Weight	               | 0.047 kg
+    | Shipment Dimensions	           | 9 × 6 × 4 cm
+    
+      Features :
+        1. 64-bit SoC @ 1.4GHz
+        2. 1GB LPDDR2 SDRAM
+        3. 2.4GHz and 5GHz IEEE 802.11.b/g/n/ac wireless LAN, Bluetooth 4.2, BLE
+        4. Gigabit Ethernet over USB 2.0 (maximum throughput of 300 Mbps)
+        5. Extended 40-pin GPIO header
+        6. Full-size HDMI
+        7. 4 USB 2.0 ports
+        8. CSI camera port for connecting a Raspberry Pi camera
+        9. DSI display port for connecting a Raspberry Pi touchscreen display
+        10. 4-pole stereo output and composite video port
+        11. Micro SD port for loading your operating system and storing data
+        12. 5V/2.5A DC power input
+        13. Power-over-Ethernet (PoE) support (requires separate PoE HAT)
+
+      USEFUL LINKS :
+       
+<p align="center">
+  <kbd>
+  <img src="https://github.com/Arjunsehgal/LY_PROJECT_COMP_AI_AND_Visualisation/blob/master/images/vehicle.JPG" width="600" height= "400" style="border: 1px solid      black" />
+    </kbd>
+   </p>
+
 
     d. raspberry pi camera :
         1. Resolution: 5 MP
