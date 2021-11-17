@@ -218,8 +218,31 @@ http://www.jcreview.com/fulltext/197-1593069401.pdf
    </p>
    
     b. vehicle :
+       1. Very handy and simple in assembling/disassembling.
+       2. Strong components so as to withstand extreme terrain conditions.
+       3. ransparent Car Chassis.
+       4. Attractive design.
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+       specification :
+    1. This is a Longer version of 4 wd double-layer smart car chassis. 
+    2. It comes with the four pairs of Geared Motors and Wheels. 
+    3. All the products included in this car kit are quality products. 
+    4. The chassis used in this kit is transparent to create dynamic handling of the components mounted on your robotic vehicle.
+
+       Features :
+       1. Very handy and simple in assembling/disassembling.
+       2. Strong components to withstand extreme terrain conditions.
+       3. Transparent Car Chassis.
+       4. Attractive design.
+       5. Double-layer structure, much of mounting holes, enough space
+       6. Easy to install a variety of control panels, sensors
+       7. Educational toys, Ideal for the DIY platform
+
+<p align="center">
+  <kbd>
+  <img src="https://github.com/Arjunsehgal/LY_PROJECT_COMP_AI_AND_Visualisation/blob/master/images/motor%20and%20wheel.JPG" width="600" height= "400" style="border: 1px solid      black" />
+    </kbd>
+   </p>
 
     c. raspberry pi 3B+ model
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
