@@ -248,7 +248,63 @@ http://www.jcreview.com/fulltext/197-1593069401.pdf
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
     d. raspberry pi camera :
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+        1. Resolution: 5 MP
+        2. Interface Type: CSI(Camera Serial Interface)
+        3. Dimensions: 25x23x8 (LxWxH) mm
+        4. Supported Video Formats: 1080p @ 30fps, 720p @ 60fps and 640x480p 60/90 video
+        5. Fully Compatible with Raspberry Pi 3 and 4 Model B
+        6. Plug-n-Play camera for Raspberry Pi 3 and 4 Model B.
+
+        Specification :
+    1. The 5MP Raspberry Pi 3/4 Model B Camera Module Rev 1.3 with Cable equips flexible cable for attaching with Raspberry Pi 3 Model B. 
+       The 5MP camera module is perfect for small Raspberry Pi projects which have very little space allowance just boot up the latest version of Raspbian and you are good to go.
+    2. The high-definition 5MP camera delivers outstanding photos but can also shoot video, ideal for drones or a CCTV project. 
+       The lightweight camera board allows for it is useful in more practical roles, such as a hidden camera, even a camera for a Pi-phone.
+    3. This Raspberry Pi Camera Module is a custom designed add-on for Raspberry Pi. It attaches to Raspberry Pi by way of one of the two small sockets on the board upper surface. 
+       This interface uses the dedicated CSI interface, therefore it is designed especially for interfacing to cameras. 
+       The CSI bus is capable of extremely high data rates, and it exclusively carries pixel data.
+    4. No adapters required.This camera will plug directly into the Raspberry Pi 3 Model B camera port.
+       
+       Hardware connection: 
+    1. Soft cable, 90-degree vertical connector, HDMI port next to it. When connecting the contact side facing the HDMI interface.
+    2. Tear protective film on the lens
+    3. Bare boards, pay attention to ESD damage, beware of static electricity!
+
+       Software: 
+    1. RPi firmware and raspi-config has been updated to the camera, do an apt-get update; apt-get upgrade;
+    2. Raspi-config, select the camera, start RPi firmware camera driver, and then restart
+    3. Using the command-line program raspivid and raspistill operate a camera to capture video clips or images
+    4. To capture video clips need to play with MPlayer
+
+    | SPECIFICATION OF CAMERA     | IN UNITS 
+    ------------------------------------
+    | Resolution	              | 5 MP
+    | Compatibility	              | Raspberry Pi 3B+/4B
+    | Lens Focus	              | Fixed Focus
+    | Image Size(Pixels)	      | 2592Ã—1944
+    | Interface Type	      | CSI(Camera Serial Interface)
+    | Sensors	              | Omnivision 5647 fixed-focus
+    | Aperture	              | 2.9
+    | Focal Length	              | 3.29
+    | FOV	                      | 72.4Â°
+    | Length (mm)	              | 25
+    | Width (mm)	              | 23
+    | Height (mm)	              | 8
+    | Weight (gm)	              | 3
+    | Shipment Weight	      | 0.005 kg
+    | Shipment Dimensions	      | 12 × 5 × 3 cm
+
+       Features :
+       1. Supported Video Formats: 1080p @ 30fps, 720p @ 60fps and 640x480p 60/90 video
+       2. Fully Compatible with Raspberry Pi 3 and 4Model B.
+       3. Small and lightweight camera module.
+       4. Plug-n-Play camera for Raspberry Pi 3 and 4 Model B.
+       
+<p align="center">
+  <kbd>
+  <img src="https://github.com/Arjunsehgal/LY_PROJECT_COMP_AI_AND_Visualisation/blob/master/images/vehicle.JPG" width="600" height= "400" style="border: 1px solid      black" />
+    </kbd>
+   </p>
  
     e. arduino uno :
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
