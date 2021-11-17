@@ -152,6 +152,16 @@ http://www.jcreview.com/fulltext/197-1593069401.pdf
         12. No-load speed(5V): about 208RPM @ 5 volts
         14. Size: 70 x 23  x 18 mm
         15. Weight:28g
+        
+    b. Wheel :
+        1. Loading Capacity: Max 2.5Kg
+        2. Double D-hole For BO Motor: 6 mm
+        3. Weight: 34g
+        4. Wheel Diameter: 65 mm
+        5. Color: Black (Tyre), Yellow (Rim)
+        6. Wheel width: 27 mm
+        7. Body Material: Plastic
+        8. Grip Material: Rubber
 
         specification :
     1. The 100 RPM Dual Shaft BO Motor Plastic Gear Motor – BO series straight motor gives good torque and rpm at lower operating voltages, which is the biggest advantage of these motors.
@@ -188,8 +198,11 @@ http://www.jcreview.com/fulltext/197-1593069401.pdf
       10. Tolerances often less critical than for metal gears, due in part to their greater resilience.
       11. Consistency with the trend to greater use of plastic housings and other components.
   <p align="center">
-  <img src="https://user-images.githubusercontent.com/59222712/141791449-4b6f3a17-938c-442f-a1ab-192d5aea20f7.JPG" width="400" height= "400" />
-   </p>                                                                                                                                                                              
+  <kbd>
+  <img src="https://github.com/Arjunsehgal/LY_PROJECT_COMP_AI_AND_Visualisation/blob/master/images/motor%20and%20wheel.JPG" width="600" height= "400" style="border: 1px solid      black" />
+    </kbd>
+   </p>
+   
     b. vehicle :
 
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
