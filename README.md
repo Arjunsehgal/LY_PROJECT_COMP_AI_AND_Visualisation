@@ -268,12 +268,12 @@ http://www.jcreview.com/fulltext/197-1593069401.pdf
     | SPECIFICATION OF MODEL  
     ------------------------------------------------------------   
     | Model	                           | Raspberry Pi 3 Model B+
-    | Processor	                       | Broadcom BCM2837B0, Cortex-A53 (ARMv8) 64-bit SoC @ 1.4GHz
+    | Processor	                   | Broadcom BCM2837B0, Cortex-A53 (ARMv8) 64-bit SoC @ 1.4GHz
     | RAM	                           | 1GB LPDDR2
     | Connectivity	                   | Gigabit Ethernet over USB 2.0
-    | Operating Power	               | 5V/2.5A DC
+    | Operating Power	           | 5V/2.5A DC
     | GPIO	                           | Standard 40-pin GPIO Header
-    | Video and Sound	               | 2-Lane MIPI DSI Display Port
+    | Video and Sound	           | 2-Lane MIPI DSI Display Port
     | Clock Speed	                   | 1.4 GHz
     |On Board Ports	                   | 15-pin MIPI Camera Serial Interface (CSI-2)
                                        | 4 x USB 2.0 Connector
@@ -286,8 +286,8 @@ http://www.jcreview.com/fulltext/197-1593069401.pdf
     | Length (mm)	                   | 85
     | Width (mm)	                   | 56
     | Height (mm)	                   | 23
-    | HDMI Port	                       | Full Size
-    | Shipment Weight	               | 0.047 kg
+    | HDMI Port	                   | Full Size
+    | Shipment Weight	           | 0.047 kg
     | Shipment Dimensions	           | 9 × 6 × 4 cm
     
       Features :
@@ -369,7 +369,7 @@ http://www.jcreview.com/fulltext/197-1593069401.pdf
        
 <p align="center">
   <kbd>
-  <img src="https://github.com/Arjunsehgal/LY_PROJECT_COMP_AI_AND_Visualisation/blob/master/images/camera.JPG" width="600" height= "400" style="border: 1px solid      black" />
+  <img src="https://github.com/Arjunsehgal/LY_PROJECT_COMP_AI_AND_Visualisation/blob/master/images/raspberry-pi-camera.jpg" width="600" height= "400" style="border: 1px solid      black" />
     </kbd>
    </p>
  
