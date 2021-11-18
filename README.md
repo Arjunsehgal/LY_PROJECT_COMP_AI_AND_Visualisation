@@ -548,22 +548,23 @@ http://www.jcreview.com/fulltext/197-1593069401.pdf
     UNO – PWM: 3, 5, 6, 9, 10, and 11. Provide 8-bit PWM output with the analogWrite() function. 
 
 
-    SPECIFICATION OF L298N BRIDGE
-    Driver Model	L298N 2A
-    Operating Voltage (VDC)	   5 ~ 35
-    Peak Current (A)	 2
-    Continuous Current (A)	 0-36mA
-    No. of Channels 2
-    Over-Current Protection (A)	Yes
-    Thermal Protection	 Yes
-    LED Indicator	 Yes
-    Cooling Fan	 No
-    Arduino Sheild	No- can be used with Wire connection
-    Dimensions in mm (LxWxH)	 44 x 44 x 28
-    Weight (gm)	                    25
-    Max powerÂ            25W.
-    Shipment Weight	         0.03 kg
-    Shipment Dimensions	        7 × 7 × 3 cm
+    | SPECIFICATION OF L298N BRIDGE
+    --------------------------------------------
+    | Driver Model                      | L298N 2A
+    | Operating Voltage (VDC)	    | 5 ~ 35
+    | Peak Current (A)	            | 2
+    | Continuous Current (A)	    | 0-36mA
+    | No. of Channels                   | 2
+    | Over-Current Protection (A)	    | Yes
+    | Thermal Protection	            | Yes
+    | LED Indicator	                    | Yes
+    | Cooling Fan	                    | No
+    | Arduino Sheild	            | No- can be used with Wire connection
+    | Dimensions in mm (LxWxH)	    | 44 x 44 x 28
+    | Weight (gm)	                    | 25
+    | Max powerÂ                        | 25W.
+    | Shipment Weight	            | 0.03 kg
+    | Shipment Dimensions	            | 7 × 7 × 3 cm
 
 
       FEATURES : 
