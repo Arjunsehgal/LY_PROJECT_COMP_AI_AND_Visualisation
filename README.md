@@ -666,8 +666,8 @@ http://www.jcreview.com/fulltext/197-1593069401.pdf
 
 ## Authors
 
-- [@Arjunsehgal](https://www.github.com/octokatherine)
-- [@ajaybhan44](https://www.github.com/octokatherine)
+- [@Arjunsehgal](https://www.github.com/Arjunsehgal/profile)
+- [@ajaybhan44](https://www.github.com/ajaybhan44)
 
 
 
@@ -727,6 +727,9 @@ b. [**DATASHEET ARDUINO UNO R3**](https://robu.in/wp-content/uploads/2017/11/2Fd
 a. [**TEMPERATURE SENSOR INTERFACING WITH ARDUINO PROJECT – CONNECTIONS AND CODE**](https://robu.in/temperature-sensor-interfacing-arduino/)
 
 
+# 3. L298N BRIDGE :
+
+a. [**DATA - SHEET**](https://robu.in/wp-content/uploads/2017/09/L298_H_Bridge.pdf)
 
 
 ## FAQ
