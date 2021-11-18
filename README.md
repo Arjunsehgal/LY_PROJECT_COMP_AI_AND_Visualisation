@@ -576,7 +576,7 @@ http://www.jcreview.com/fulltext/197-1593069401.pdf
 
 <p align="center">
   <kbd>
-  <img src="https://github.com/Arjunsehgal/LY_PROJECT_COMP_AI_AND_Visualisation/blob/master/images/raspberrypi.jpg" width="600" height= "400" style="border: 1px solid      black" />
+  <img src="https://github.com/Arjunsehgal/LY_PROJECT_COMP_AI_AND_Visualisation/blob/master/images/L298N-Module-Pinout.jpg" width="600" height= "400" style="border: 1px solid      black" />
     </kbd>
    </p>
 
