@@ -666,7 +666,7 @@ http://www.jcreview.com/fulltext/197-1593069401.pdf
 
 ## Authors
 
-- [@Arjunsehgal](https://www.github.com/Arjunsehgal/profile)
+- [@Arjunsehgal](https://www.github.com/Arjunsehgal)
 - [@ajaybhan44](https://www.github.com/ajaybhan44)
 
 
