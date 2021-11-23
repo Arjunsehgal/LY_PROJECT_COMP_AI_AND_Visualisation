@@ -61,6 +61,7 @@
 https://ieeexplore.ieee.org/document/9315223
 
     2. A Survey of Autonomous Driving: Common Practices and Emerging Technologies
+https://ieeexplore.ieee.org/document/9046805 
 
     3. IoT based Self Driving Car
 
