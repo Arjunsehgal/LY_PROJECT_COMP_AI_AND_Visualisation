@@ -619,6 +619,74 @@ http://www.jcreview.com/fulltext/197-1593069401.pdf
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
 
+# **steps to be followed :**
+    a. Build Hardware For Self Driving Car :
+       1. Gather HardWare Requirements
+       2. Assemble Hardware Parts 
+       3. Build a Track for Testing
+
+    b. Slave Device Setup :
+       1. First download the Arduino UNO software (Arduino uno 1.8.16) 
+       2. connect the L298N pins with Ardiuino uno PWM Pins. The connection Is as Follows :
+              
+            o The enable pin Left side motor is 5 and the high & low pins are connected to the 6th and 7th pin of arduino uno .
+               
+                const int EnableL = 5;
+                const int HighL = 6;       // LEFT SIDE MOTOR
+                const int LowL =7;
+
+            o Similarly the enable pin for right side motor is 5 and the High and Low pins are connected to the 8th and 9th pin of Arduino uno. 
+
+                const int EnableR = 10;
+                const int HighR = 8;       //RIGHT SIDE MOTOR
+                const int LowR =9;   
+               
+        3. next steps is to define the pin modes , so all our pins modes are output pins and defined in a pin void setup as :
+            
+                void setup 
+                {
+                pinMode(EnableL, OUTPUT);
+                pinMode(HighL, OUTPUT);
+                pinMode(LowL, OUTPUT);
+
+                pinMode(EnableR, OUTPUT);
+                pinMode(HighR, OUTPUT);
+                pinMode(LowR, OUTPUT);
+                }
+
+        4. now make a function for forward and backward control 
+           
+            o In order to have a forward motion we have to send a low signal to HighL pin and High signal to LowL pin.
+              And we also have a PWM signal for speed As follows :
+
+                void Forward()
+                {
+                digitalWrite(HighL, LOW);
+                digitalWrite(LowL, HIGH);
+                analogWrite(EnableL,255);
+
+                digitalWrite(HighR, LOW);
+                digitalWrite(LowR, HIGH);
+                analogWrite(EnableR,255);
+                }
+         
+           o Similarly we have to apply for backward motion by simply reverse the Logic :
+              
+              void Backward()
+              {
+              digitalWrite(HighL, HIGH);
+              digitalWrite(LowL, LOW);
+              analogWrite(EnableL,255);
+
+              digitalWrite(HighR, HIGH);
+              digitalWrite(LowR, LOW);
+              analogWrite(EnableR,255);
+              }
+
+        5. now call your vehicle forward or backward by simply compile and place your code in Ardrino .
+ 
+
+
 ## FeatureS
 
 |  UI  | Logic | Feature |
