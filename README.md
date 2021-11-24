@@ -782,7 +782,60 @@ http://www.jcreview.com/fulltext/197-1593069401.pdf
 
             o  FOR the first time it will Start Rebooting , after that unplug the USB cable.
         
-        2. Connect Raspberry Pi to Personl computer Through Ethernet .
+        2. Connect Raspberry Pi to Personl computer Through Ethernet :
+
+            o  now before pairing our raspberry pi to pc we need to enable the secure shell
+               of our Raspberry Pi and then we have to install certain packages to eable the graphical user interface of Raspberry Pi.
+
+            o so for this we remove the SD Card and plug to PC and go to to the boot drive of SD Card and create a new file (named as ssh)
+              such that when Raspberry pi again Start Rebooting It will delete the file and automatically make a file of same name 
+              [Secure Shell (SSH) is a feature of Linux that allows you to effectively open a terminal session on your Raspberry Pi from the command line of your host computer].
+            
+            o now remove this SD Card and plug back to Raspberry pi.
+            
+            o In the next step connect the ethernet cable to Raspberry Pi and power up your Raspberry Pi Through USB cable & wait for 20 to 25 seconds.
+
+            o Now Raspberry Pi is connected through Ethernet Cable And now go to the ethernet setting -> go to network and Sharing Centre -> there will be two connections in which 
+              one is Raspberry Pi connection
+            o now go to wifi connection -> go to properties -> go to sharing tab -> allow the sharing -> click OK and close it
+
+            o now go to ethernet connection -> go to properties -> go to internet protocol version 4 (IPV4) -> select this and go to properties
+              there is some IP ADDRESS and use this IP ADDRESS to search for alloted Ip Address for Raspberry Pi
+            
+            o so to find the IP ADDRESS we Use a third party software ( ADVANCED IP SCANNER ) , type a range and search for IP ADDRESS alloted to Raspberry Pi.
+              we also be able to find the active one IP ADDRESS otherwise it will not work.
+
+            o after the IP address is found ,use this IP ADDRESS to access the secure shell of raspberry Pi.
+
+            o so at this point we cannot use the graphical user interface (GUI) of our Raspberry Pi . First We Have to access the secure Shell for that we use a software Called  PuTTy and here we will type the IP Address
+              and click open and after that we were inside the terminal of Raspberry Pi.
+            
+            o After that we will issue a command to access a GUI 
+              
+              - sudo apt-get install xrdp
+
+            o After that just go to the remote desktop connection and apply the IP ADDRESS 
+              it will show us the GUI and asks for UserName And PAssword 
+
+              - Default username : pi
+              - Default password : raspberry
+            
+            o Now we were able to go inside to the raspberry pi  
+        
+        3. Connect Raspberry Pi to Personl computer Through Wifi :
+            
+            o while connecting -> we Go to Setting -> internet and Sharing Centre -> go to Wifi -> go to properties -> go to internet protocol version 4 (IPV4)
+              -> click on properties -> There it will not show any IP ADDRess .
+              so in order to access the ip we go to CMD and apply the command IPCONFIG
+
+              - IPCONFIG
+
+            o and take the IP and Go to Ip SCANNER and SCan The Range Now Go to remote Desktop and Access the RAspberry Pi.
+
+            o Now we can access the Raspberry Pi Through WIFI.
+
+        4. Connect Raspberry Pi to PC through VNC viewer :
+
          
             
 
