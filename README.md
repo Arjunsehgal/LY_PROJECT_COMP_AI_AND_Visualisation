@@ -767,20 +767,20 @@ http://www.jcreview.com/fulltext/197-1593069401.pdf
 
         1. Flashing Raspberry Pi operating System (OS) on Raspberry Pi 3B+ :
 
-          o  So first step is to flash the image into the SD Card and reformat 
+            o  So first step is to flash the image into the SD Card and reformat 
                the SD CArd 
 
-          o  The Next step is to download the Raspbian Opearting System .
+            o  The Next step is to download the Raspbian Opearting System .
                For that We choose Raspberry Pi OS with desktop and recommended software . & the size of this file is Around 5 GB.
              
-          o  Nxt step is to We have a need of Flashing Tool TO flash the image to SD CARD . 
+            o  Nxt step is to We have a need of Flashing Tool TO flash the image to SD CARD . 
                For That We Use Balena Etcher.
 
-          o  After the flashing is complete & plug the SD Card to Raspberry pi . 
+            o  After the flashing is complete & plug the SD Card to Raspberry pi . 
 
-          o  Now plug the one side of USB cable to Laptop/PC and aother side to RAspberry pi to power up the Raspberry pi.
+            o  Now plug the one side of USB cable to Laptop/PC and aother side to RAspberry pi to power up the Raspberry pi.
 
-          o  FOR the first time it will Start Rebooting , after that unplug the USB cable.
+            o  FOR the first time it will Start Rebooting , after that unplug the USB cable.
         
         2. Connect Raspberry Pi to Personl computer Through Ethernet .
          
