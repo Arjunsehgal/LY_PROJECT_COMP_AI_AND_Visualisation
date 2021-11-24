@@ -835,6 +835,27 @@ http://www.jcreview.com/fulltext/197-1593069401.pdf
             o Now we can access the Raspberry Pi Through WIFI.
 
         4. Connect Raspberry Pi to PC through VNC viewer :
+            o As we are using VNC viewer Bcoz Remote Desktop Connection Is not supported in Windows 10 home version and also the connection is choppy and laggy 
+              So we use VNC viewer An option to Remote Desktop Protocol.
+            
+            o In Order to connect to VNC Viewer We need to install some packages on our Raspberry Pi.
+
+            o go to Raspberry Pi terminal and enable the vnc Viewer interface
+            
+            - sudo raspi-config
+
+            o After that just go to interfacing options ,in that there is a diect option for VNC connection 
+              just enable it 
+
+            o now download the VNC ( virtual network computing ) and for enabling the VNC Server run the command on raspi terminal
+
+            - sudo apt-get install realvnc-vnc-server realvnc-vnc-viewer
+
+            o now type the IP ADDRESS in VNC Viewer and it will smoothly connect raspbian Software.
+        
+            o we prefer this application becoz it is faster than remote desktop connection but lower bit frames.
+        
+        5. Install openCV4 on Raspberry Pi 3B+ :
 
          
             
