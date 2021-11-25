@@ -855,8 +855,33 @@ http://www.jcreview.com/fulltext/197-1593069401.pdf
         
             o we prefer this application becoz it is faster than remote desktop connection but lower bit frames.
         
-        5. Install openCV4 on Raspberry Pi 3B+ :
+        5. Install openCV4 on Raspberry Pi 3B+ : (INTRO TO OPENCV AND PROGRAMMING LANGUAGE FOR OPENCV)
+          
+            o openCV is Mainly a Library For Programing Functions mainly dedicated to computer vision or we can say image processing .
+              This Library can be implemented for multiple platforms that means if we have a platform where we use openCV it can used in other Platform With minor 
+              Changes .
+            
+            o OpenCV Also supports machine learning.we use openCV Modules to Tarain our Cascade Classifier to detect stop sign and traffic lights .
 
+            o Basic Applications of OpenCV :
+             
+              - Facial Recognization
+              - Gesture Recognization
+              - By Robotics 
+              - Motion Understanding
+              - object Notification segmentation and recognisation
+              - augmented reality 
+              - deep neural networks 
+            
+            o OpenCV's main interface is in C++ Language 
+               [we Use OpencV bcoz of Its Performance Bcoz if We use Tensorflow it will be performance intensive that means these libraries will not give 
+                proper or smooth performance .]
+              And also openCV performs basic image processing functions.
+            
+            o Firsly when we open the Raspberry Pi We have to Uninstall The unnecessary Softwares To clear Up the space.
+              So we have commands folder and have commands.txt , Just copy ,paste and enter the commands one by one.
+            
+            o After that we have to clone OpenCv From github 
          
             
 
