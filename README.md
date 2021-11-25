@@ -882,7 +882,22 @@ http://www.jcreview.com/fulltext/197-1593069401.pdf
             o Firsly when we open the Raspberry Pi We have to Uninstall The unnecessary Softwares To clear Up the space.
               So we have commands folder and have commands.txt , Just copy ,paste and enter the commands one by one.
             
-            o After that we have to clone OpenCv From github 
+            o After that find your SD Card Space by using a command on raspi terminal
+             
+             - df -h
+             
+             after using this command upgrade the raspbian software by using 
+
+            [ update raspberry pi3 ]
+             - sudo apt-get upgrade
+             - sudo apt-get update
+            
+            o now we will have to build or developed openCv on our RAspberry Pi .
+              For that Use the Commands In the Commands.txt from above .
+            
+    d. Camera Setup For Raspberry Pi :
+       
+        1.  
          
             
 
