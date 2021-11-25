@@ -855,7 +855,8 @@ http://www.jcreview.com/fulltext/197-1593069401.pdf
         
             o we prefer this application becoz it is faster than remote desktop connection but lower bit frames.
         
-        5. Install openCV4 on Raspberry Pi 3B+ : (INTRO TO OPENCV AND PROGRAMMING LANGUAGE FOR OPENCV)
+        
+    d. Install openCV4 on Raspberry Pi 3B+ : (INTRO TO OPENCV AND PROGRAMMING LANGUAGE FOR OPENCV)
           
             o openCV is Mainly a Library For Programing Functions mainly dedicated to computer vision or we can say image processing .
               This Library can be implemented for multiple platforms that means if we have a platform where we use openCV it can used in other Platform With minor 
