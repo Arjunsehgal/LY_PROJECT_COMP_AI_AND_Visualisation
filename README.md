@@ -897,7 +897,54 @@ http://www.jcreview.com/fulltext/197-1593069401.pdf
             
     d. Camera Setup For Raspberry Pi :
        
-        1.  
+        1. In this,first , We will install a Library for Raspberry Pi camera 
+           so to access our camera in Raspberry Pi we have to clone the library from github by using command 
+
+              - git clone https://github.com/cedricve/raspicam.git
+
+            o After the library is downloaded move inside the folder by using
+           
+              - cd raspicam
+        
+            o Now make a new directory for build and move inside the build folder by using 
+
+              - mkdir build
+              - cd build
+              - cmake ..
+
+            o Now install all the config and source files by using
+             
+              - make
+              - sudo make install
+              - sudo ldconfig
+            
+            o last step is to add the .pc file path to geany Editor to access the camera.
+            
+        2. Next we have to start with wiring Pi library which is used to access the GPIO pins of Raspberry Pi
+           Usually wiring Pi library is preInstalled by directly using the header File 
+             
+              - # include <wiringpi.h>
+            
+            o After that We all done with camera libraries setup
+        
+        3. now its turn to mount camera on car 
+           First thing to be noted that it is not a good camera as mobile Phone
+           
+           
+            o it is also not a wide angle camera so if we place the Camera at the front then our region of interest is so narrow
+              that we are not able see or recognise our lanes from track .
+
+            o So after huge no of practices we are able to find a postion of camera at a back but at some height 
+              and its height selction is mainly depend on visualizing the video captured by image.
+
+            o But one thing in mind the camera should be mounted in slightly downward face for clear and distinct view of lanes
+               otherwise it is distorted.
+
+            o and the last step is to take the cable of camera and plug it to Raspberry pi csa port.
+              make sure the blue side of cable is facing toward the USB connectors.
+              
+              
+    e. Code to Capture Images and videos :  
          
             
 
