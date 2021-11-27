@@ -944,7 +944,138 @@ http://www.jcreview.com/fulltext/197-1593069401.pdf
               make sure the blue side of cable is facing toward the USB connectors.
               
               
-    e. Code to Capture Images and videos :  
+    e. Code to Capture Images and videos :
+             
+        1. In This We will enable Our Camera by using raspicam and openCV libraries .
+           for the first we have to enable the camera interface and for that just go to main menu -> go to preferences -> click on raspberry pi Configuration
+
+            o if we fail to open raspberry pi configuration ,we can also access it through command line 
+              for that just go to command line nad type 
+
+               - sudo raspi-config  
+            
+            o now go to interfacing option -> click camera option -> and enabled it.
+
+            o and reeboot the System 
+              
+              - sudo reboot-now
+
+            o now our camera is enabled and also we are now able to write our code in c++ for accessing or camera capturing.
+              for that we used the prebuilt software in raspberry pi -> Geany.
+
+        2. C++ code to capture images Steps to be followed and to check the code go to raspberry_pi Folder.
+
+           o first of all create a file with any name with extension ( .cpp )  and save the file wherever location we want .
+             The extension is necessary bcoz it help compiler to recognise the file 
+
+           o now we start with the header files and namespaces and i order to initalise the camera create a object -> camera 
+             for class -> raspicam_cv 
+             and with the use of this camera object we can access all the functions of thus class.
+
+            o now in order to use wether our camera is open or failed in some cases we use a if condition 
+              and in if condition we use a open function if camera opens it will return 1 otherwise it eill return 0;
+
+            o also if camera opens we also have a function getID for camera object and it will show us a camera Id on terminal.
+
+                   int main(){
+                      RaspiCam_Cv Camera;
+                      cout<< "Connecting to camera" << endl;
+                      if (!Camera.open())
+	                    {
+	                    cout<<"Failed to Connect"<< endl;
+                        }
+                        cout<< "Camera Id = "<< Camera.getId()<< endl;
+                    } 
+
+            o now if we want to learn more about the camera function we can go to main menu  -> go to file Manager -> and in pi folder there is a raspicam folder 
+              -> go inside -> go to src ->and open raspicam_cv.cpp and see the various functions of camera.
+
+            o now our next step is to add some basic parameters to our camera such as
+              
+              - resolution
+              - contrast 
+              - brightness
+              - frame rate
+
+            o for that we create a setup function with same camera object where we define all the parameters.
+              
+              void Setup ( int argc,char **argv, RaspiCam_Cv &Camera )
+              {
+              Camera.set ( CAP_PROP_FRAME_WIDTH,  ( "-w",argc,argv,400 ) );
+              Camera.set ( CAP_PROP_FRAME_HEIGHT,  ( "-h",argc,argv,240 ) );
+              Camera.set ( CAP_PROP_BRIGHTNESS, ( "-br",argc,argv,50 ) );
+              Camera.set ( CAP_PROP_CONTRAST ,( "-co",argc,argv,50 ) );
+              Camera.set ( CAP_PROP_SATURATION,  ( "-sa",argc,argv,50 ) );
+              Camera.set ( CAP_PROP_GAIN,  ( "-g",argc,argv ,50 ) );
+              Camera.set ( CAP_PROP_FPS,  ( "-fps",argc,argv,100));
+              }
+            
+            o and call the fuction in main where argc and argv are command line arguments.
+              (The name of the variable argc stands for "argument count"; argc contains the number of arguments passed to the program. The name of the variable argv stands for                "argument vector". A vector is a one-dimensional array, and argv is a one-dimensional array of strings. 
+               Each string is one of the arguments that was passed to the program.)
+               
+               we can call the function setup as 
+               
+              - setup(argc , argv, camera)
+
+            o Now our camera is ready to capture a image and in Order to Capture a image we use a grap fuction 
+              
+               - camera.grab();
+            
+            o And we will create a new variable to save a image from grab function 
+               
+               - mat frame ;
+
+               and to save the image in frame variable we use a retrive function for this.
+
+                - camera.retreive(frame);
+
+               and to show this frame variable on console we use a function Imshow and pass the window variable here and 
+               also use the arguments function in the main also .
+                
+                - imshow ("Frame",frame);
+                - waitKey();
+
+        3. C++ code to capture Videos, Steps to be followed and to check the code go to raspberry_pi Folder.
+         
+           o for capturing a video we dont have a a different function rathera different approach 
+             we simply add  a while loop and place the grab function inside a while loop so that we will treceive a continous image as video.
+
+                while(1)
+                {
+                
+                Camera.grab();
+                Camera.retrieve( frame);
+        
+                imshow("orignal", frame);
+                waitKey(1);
+                } 
+
+        4. After that we will be Calculating FPS ( frames per second ) for our video stream 
+           for that we are using crono library 
+            
+             - https://en.cppreference.com/w/cpp/chrono/duration
+
+           o After that in order to find the fps first we have to claculate the start time and the end time 
+             so thhat we calculate the elasped time .
+
+             - auto start = std::chrono::system_clock::now();
+             - auto end = std::chrono::system_clock::now();
+             - std::chrono::duration< double> elapsed_seconds = end-start;
+
+           o now we have to change the elasped time to readable form for that we changed it to float by using the count function
+            
+             - float t = elasped_time.count(); 
+            
+           o now we are able to calculate the FPS from the total time t and show on console
+            
+             - int FPS = 1/t ;
+
+    f. Image processing Using OpenCV and C++ :
+     
+       1. converting the Image signature :
+          
+          o  
          
             
 
