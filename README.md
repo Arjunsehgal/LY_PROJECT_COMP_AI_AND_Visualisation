@@ -789,13 +789,13 @@ http://www.jcreview.com/fulltext/197-1593069401.pdf
 
             o so for this we remove the SD Card and plug to PC and go to to the boot drive of SD Card and create a new file (named as ssh)
               such that when Raspberry pi again Start Rebooting It will delete the file and automatically make a file of same name 
-              [Secure Shell (SSH) is a feature of Linux that allows you to effectively open a terminal session on your Raspberry Pi from the command line of your host                         computer].
+              [Secure Shell (SSH) is a feature of Linux that allows you to effectively open a terminal session on your Raspberry Pi from the command line of your host computer].
             
             o now remove this SD Card and plug back to Raspberry pi.
             
             o In the next step connect the ethernet cable to Raspberry Pi and power up your Raspberry Pi Through USB cable & wait for 20 to 25 seconds.
 
-            o Now Raspberry Pi is connected through Ethernet Cable And now go to the ethernet setting -> go to network and Sharing Centre -> there will be two connections in                 which 
+            o Now Raspberry Pi is connected through Ethernet Cable And now go to the ethernet setting -> go to network and Sharing Centre -> there will be two connections in which 
               one is Raspberry Pi connection
             o now go to wifi connection -> go to properties -> go to sharing tab -> allow the sharing -> click OK and close it
 
@@ -807,7 +807,7 @@ http://www.jcreview.com/fulltext/197-1593069401.pdf
 
             o after the IP address is found ,use this IP ADDRESS to access the secure shell of raspberry Pi.
 
-            o so at this point we cannot use the graphical user interface (GUI) of our Raspberry Pi . First We Have to access the secure Shell for that we use a software Called               PuTTy and here we will type the IP Address
+            o so at this point we cannot use the graphical user interface (GUI) of our Raspberry Pi . First We Have to access the secure Shell for that we use a software Called  PuTTy and here we will type the IP Address
               and click open and after that we were inside the terminal of Raspberry Pi.
             
             o After that we will issue a command to access a GUI 
@@ -1011,7 +1011,7 @@ http://www.jcreview.com/fulltext/197-1593069401.pdf
               }
             
             o and call the fuction in main where argc and argv are command line arguments.
-              (The name of the variable argc stands for "argument count"; argc contains the number of arguments passed to the program. The name of the variable argv stands for                "argument vector". A vector is a one-dimensional array, and argv is a one-dimensional array of strings. 
+              (The name of the variable argc stands for "argument count"; argc contains the number of arguments passed to the program. The name of the variable argv stands for "argument vector". A vector is a one-dimensional array, and argv is a one-dimensional array of strings. 
                Each string is one of the arguments that was passed to the program.)
                
                we can call the function setup as 
@@ -1121,14 +1121,14 @@ http://www.jcreview.com/fulltext/197-1593069401.pdf
 
               - Point2f Destination[] = {Point2f(100,0),Point2f(280,0),Point2f(100,240), Point2f(280,240)}
 
-            o now we have to map our region of interest to prespective view ,for that we use a getPrespectiveTransformation function of openCV . this command has two arguments               first one is 
+            o now we have to map our region of interest to prespective view ,for that we use a getPrespectiveTransformation function of openCV . this command has two arguments first one is 
               the source array and second is the destination array 
               
             o Next we have to store the new variable from command in mat variable matrix.
              
               - Matrix = getPerspectiveTransform(Source, Destination);
 
-            o  now we have to show the view in another frame for that we use the warpprespective command which takes input frame and gives output in frame_pres and third                      argument is from getPrespectiveTransform matrix.
+            o  now we have to show the view in another frame for that we use the warpprespective command which takes input frame and gives output in frame_pres and third argument is from getPrespectiveTransform matrix.
                next argument is to define the size of the image
                Next We will display this frame prespective in new frame inside the while loop.
 
@@ -1175,13 +1175,13 @@ http://www.jcreview.com/fulltext/197-1593069401.pdf
           
             o INTRODUCTION TO CANNY EDGE DETECTION :
 
-            The Canny edge detector is an edge detection operator that uses a multi-stage algorithm to detect a wide range of edges in images. It was developed by John F. Canny             in 1986. 
+            The Canny edge detector is an edge detection operator that uses a multi-stage algorithm to detect a wide range of edges in images. It was developed by John F. Canny in 1986. 
             Canny also produced a computational theory of edge detection explaining why the technique works.
             The Canny filter is a multi-stage edge detector. It uses a filter based on the derivative of a Gaussian in order to compute the intensity of the gradients.
-            The Gaussian reduces the effect of noise present in the image. Then, potential edges are thinned down to 1-pixel curves by removing non-maximum pixels of the                   gradient magnitude. 
+            The Gaussian reduces the effect of noise present in the image. Then, potential edges are thinned down to 1-pixel curves by removing non-maximum pixels of the gradient magnitude. 
             Finally, edge pixels are kept or removed using hysteresis thresholding on the gradient magnitude.
             
-            The Canny has three adjustable parameters: the width of the Gaussian (the noisier the image, the greater the width), and the low and high threshold for the                     hysteresis thresholding.
+            The Canny has three adjustable parameters: the width of the Gaussian (the noisier the image, the greater the width), and the low and high threshold for the hysteresis thresholding.
             
             The general criteria for edge detection include:
               
@@ -1191,18 +1191,19 @@ http://www.jcreview.com/fulltext/197-1593069401.pdf
 
             
             o so in openCV there is a function Canny which we apply to grayscale Image
-              this canny function takes the input grayscale frame, 2nd returns the output frame ,3rd argument is minimum threshholding for hystersis ,next is our maximum                     thresholding after that we use the sovel filter to calculate the gradient of image 
+              this canny function takes the input grayscale frame, 2nd returns the output frame ,3rd argument is minimum threshholding for hystersis ,next is our maximum thresholding 
+              after that we use the sovel filter to calculate the gradient of image 
 
-                    Sobel Filter : The Sobel operator performs a 2-D spatial gradient measurement on an image and so emphasizes regions of high spatial frequency that                                              correspond to edges. 
+                    Sobel Filter : The Sobel operator performs a 2-D spatial gradient measurement on an image and so emphasizes regions of high spatial frequency that correspond to edges. 
                                    Typically it is used to find the approximate absolute gradient magnitude at each point in an input grayscale image.  
 
                     Gradient of Image : Image gradients are a fundamental building block of many computer vision and image processing routines.
 
                                     - We use gradients for detecting edges in images, which allows us to find contours and outlines of objects in images
-                                    - We use them as inputs for quantifying images through feature extraction — in fact, highly successful and well-known image descriptors such                                       as Histogram of Oriented Gradients and SIFT are built upon image gradient representations
+                                    - We use them as inputs for quantifying images through feature extraction — in fact, highly successful and well-known image descriptors such as Histogram of Oriented Gradients and SIFT are built upon image gradient representations
                                     - Gradient images are even used to construct saliency maps, which highlight the subjects of an image
                                                                                                                    
-            o Now we wil create a sobel filer of 3 so that it will create a sobel filter of 3x3 matrix next is our advanced gradient but it will too much time to finish so we                 put it to false.
+            o Now we wil create a sobel filer of 3 so that it will create a sobel filter of 3x3 matrix next is our advanced gradient but it will too much time to finish so we put it to false.
               And if there is some unnecessary edge in the frame just simply increase the minimum threshholding.
                
                 - Canny(frameGray,frameEdge, 900, 900, 3, false);
@@ -1215,6 +1216,11 @@ http://www.jcreview.com/fulltext/197-1593069401.pdf
                 - add(frameThresh, frameEdge, frameFinal);
 
         5. Now our Next Step is Finding Lanes From Track For That
+            
+
+              
+              
+
             
 
               
