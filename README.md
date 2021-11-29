@@ -1332,23 +1332,175 @@ http://www.jcreview.com/fulltext/197-1593069401.pdf
             
     g. Master and slave device Communication :
      
-       1. Now first of all we have to 
+       1. for RaspberryPi : 
             
-
-              
-              
-
+            o Now first of all we have to setup a wiring pi library for that we use 
+           
+                -  wiringPiSetup();
             
-
-              
-              
-  
-         
+            o next we have to define the pin mode and all the pins are outputs and defined as output
+                
+                    pinMode(21, OUTPUT);
+                    pinMode(22, OUTPUT);
+                    pinMode(23, OUTPUT);
+                    pinMode(24, OUTPUT);
             
+            o now use conditions and retrives the output for same. If our result vafriable shows 0 then our output is 0 also in decimal form 
+              and simply print a  information to move forward
 
+            o now simply copy paste the above condition with different results.
 
+                    if (Result == 0)
+                    {
+	                digitalWrite(21, 0);
+	                digitalWrite(22, 0);    //decimal = 0
+	                digitalWrite(23, 0);
+	                digitalWrite(24, 0);
+	                cout<<"Forward"<< endl;
+                    }
+    
+                   else if (Result >0 && Result < 10)
+                    {
+	                digitalWrite(21, 1);
+	                digitalWrite(22, 0);    //decimal = 1
+	                digitalWrite(23, 0);
+	                digitalWrite(24, 0);
+	                cout<<"Right1"<< endl;
+                    }
+    
+                    else if (Result >=10 && Result < 20)
+                    {
+	                digitalWrite(21, 0);
+	                digitalWrite(22, 1);    //decimal = 2
+	                digitalWrite(23, 0);
+	                digitalWrite(24, 0);
+	                cout<<"Right2"<< endl;
+                    }
+    
+                    else if (Result >20)
+                    {
+	                digitalWrite(21, 1);
+	                digitalWrite(22, 1);    //decimal = 3
+	                digitalWrite(23, 0);
+	                digitalWrite(24, 0);
+	                cout<<"Right3"<< endl;
+                    }
+    
+                    else if (Result < 0 && Result >-10)
+                    {
+                    digitalWrite(21, 0);
+                    digitalWrite(22, 0);    //decimal = 4
+                    digitalWrite(23, 1);
+                    digitalWrite(24, 0);
+                    cout<<"Left1"<< endl;
+                    }
+                    
+                        else if (Result <=-10 && Result >-20)
+                    {
+                    digitalWrite(21, 1);
+                    digitalWrite(22, 0);    //decimal = 5
+                    digitalWrite(23, 1);
+                    digitalWrite(24, 0);
+                    cout<<"Left2"<< endl;
+                    }
+                    
+                        else if (Result <-20)
+                    {
+                    digitalWrite(21, 0);
+                    digitalWrite(22, 1);    //decimal = 6
+                    digitalWrite(23, 1);
+                    digitalWrite(24, 0);
+                    cout<<"Left3"<< endl;
+                    }
+
+        2. For Arduino UNO :
+           
+            o now first of attach the wiring pi pins to the Arduino uno Pins
+
+            o after that define the Pins connected Raspberry pi,
+                
+                    const int D0 = 0;       //Raspberry pin 21    LSB
+                    const int D1 = 1;       //Raspberry pin 22
+                    const int D2 = 2;       //Raspberry pin 23
+                    const int D3 = 3;       //Raspberry pin 24    MSB
             
+            o next we have to create a new function to read the values from these digital pins
+              for that we directly use the digitalread fn 
 
+                    a = digitalRead(D0);
+                    b = digitalRead(D1);
+                    c = digitalRead(D2);
+                    d = digitalRead(D3);
+            
+            o next create an another variable Data to store the Decimal value from these binary values  
+              for converting the binary value to decimal we multiply the value by their weights 
+                  
+                  - data = 8*d+4*c+2*b+a;
+
+            o After that we have to define the pin modes of the pins and here the pins takes the input
+              and are defined in setup function given by 
+                
+                    pinMode(D0, INPUT_PULLUP);
+                    pinMode(D1, INPUT_PULLUP);
+                    pinMode(D2, INPUT_PULLUP);
+                    pinMode(D3, INPUT_PULLUP);
+            
+            o now write the logic in the void loop if data is 0 then that means the raspberry pi is sending data 
+              of decimal zero which means we have to move forward now call the forward function 
+              similarly we have to perform all other operations 
+
+                    void loop() 
+                    {
+                    Data();
+                    if(data==0)
+                    {
+                        Forward();
+                    }
+                    
+                    else if(data==1)
+                    {
+                        Right1();
+                    }
+                        
+                    else if(data==2)
+                    {
+                        Right2();
+                    }
+                        
+                    else if(data==3)
+                    {
+                        Right3();
+                    }
+                        
+                    else if(data==4)
+                    {
+                        Left1();
+                    }
+                        
+                    else if(data==5)
+                    {
+                        Left2();
+                    }
+                        
+                    else if(data==6)
+                    {
+                        Left3();
+                    }
+                    
+                    else if (data==7)
+                    {
+                        UTurn();
+                    }
+                        
+                    else if (data>7)
+                    {
+                        Stop();
+                    }
+                    }
+            
+            o Now its time to Test Our Car On a Track .
+
+          
 
 ## FeatureS
 
