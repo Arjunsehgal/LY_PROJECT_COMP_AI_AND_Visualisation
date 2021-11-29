@@ -1215,7 +1215,124 @@ http://www.jcreview.com/fulltext/197-1593069401.pdf
                
                 - add(frameThresh, frameEdge, frameFinal);
 
-        5. Now our Next Step is Finding Lanes From Track For That
+        5. Now our Next Step is Finding Lanes From Track with respect to the left side of frame.
+           For that we We have to find the distance of both lanes with respect to refrence ie with the left side of frame.
+
+            o For finding the distance we again create a region of interest at the bottom of frame , Now this time we create a region of interest by using rectangle function,
+             where we need two points .
+              
+                - Rect(x ,y ,x+a ,x+b);
+
+                OR
+
+                - Rect(x ,y ,a ,b);
+            
+            o Now in openCV we cannot process whole region of interest in once so we have to define the region of interest into different strips.
+              now or each strip is of 1 pixel width and 100 pixel of height so we have a total of 100 Pixels and calculate the total intensity of strip
+               
+               - t Pixels = 100X1 = 100
+               - intensity for black =0;
+               - total intensity of strip = 100 x 0 =0;
+
+            o we can store the resultant intensity in dynamic array and in this array there will be total of 400 elements. For dynamic array we create a vector
+              
+               - vector<int> histrogramLane; 
+            
+            o now for this , we create a function Histogram and define the vector inside the function
+              we first use the resize function to change the size to 400.Next is to clear all the vlues the histogram using clear function. 
+
+               - histrogramLane.resize(400);
+               - histrogramLane.clear();
+            
+            o in the next step we create a for Loop to Process Our strips in region of interest with frame size width.
+              in this for loop we create the strips directly using the rect function with width of 1 pixel and iterate it from i;
+              Next we have to normalise the pixels for that we will divide the maximum possible intensity to all the pixels For that we use the divide function which has some arguments 
+              Ist is to divide it with maximum possible intensity of 255 , 2nd we have to specify the input image ,next is output image.
+
+            o In the next step is to push all the intensity values to vectors ,in this we add all the strips in single values for that we use sum function and the next we have to define the color channel
+              So we have gray scale image therefore its value is 0;
+
+                void Histrogram()
+                {
+                histrogramLane.resize(400);
+                histrogramLane.clear();
+    
+                for(int i=0; i< 400; i++)       //frame.size().width = 400
+                {
+	            ROILane = frameFinalDuplicate(Rect(i,140,1,100));
+	            divide(255, ROILane, ROILane);
+	            histrogramLane.push_back((int)(sum(ROILane)[0])); 
+                }
+                }
+ 
+            o next we have to define our exact position of lanes from our dynamic array,\
+              Now to find the position we simply split the array into two halves the with the use of iterators (pointer)
+              to find the position of maximum intensity
+
+            o for this we create a new function LaneFinder and in this function first create a iterator
+              and with this iterator we use use the MAX_element function to find the max intensity in our array and it has 2 parameters first one is initial point of our array and 2nd one is the last variable
+              of array for that we use the begin function for initial point and end point is given by initial point + 200 
+              and store the postion of lane in new variable LeftLanePos with distance function which has two variables first one is the initial point and second one is our leftLanePos.
+              and similarly repeat theis step for right lane position.
+            
+            o in the next step we have to display this left lane position and right lane position on frame for that we use the line function which has 5 parameters first one is the input frame ,next two parameters 
+              define the points 4th one is the color for tracking and last one is the width of the line similarly draw a line for right lane position and call these functions in while loop.
+                
+                void LaneFinder()
+                {
+                vector<int>:: iterator LeftPtr;
+                LeftPtr = max_element(histrogramLane.begin(), histrogramLane.begin() + 150);
+                LeftLanePos = distance(histrogramLane.begin(), LeftPtr); 
+    
+                vector<int>:: iterator RightPtr;
+                RightPtr = max_element(histrogramLane.begin() +250, histrogramLane.end());
+                RightLanePos = distance(histrogramLane.begin(), RightPtr);
+    
+                line(frameFinal, Point2f(LeftLanePos, 0), Point2f(LeftLanePos, 240), Scalar(0, 255,0), 2);
+                line(frameFinal, Point2f(RightLanePos, 0), Point2f(RightLanePos, 240), Scalar(0,255,0), 2); 
+                }
+            
+            o Tn the next step we have to find the lane center from the lane lines fo this we create a function lane center 
+              and use the mathematics we have 
+               
+                -  [( rightlanepos - leftlanepos )/2 ]+ leftlanepos ;
+
+            o next we also have a frame center of 200 After that we again simply draw a line on lane center using the line command
+              and in the same way draw a line for frame center also.
+              call this function in while loop.
+            
+            o next we have do caliberation ,[INTRO]
+              
+               - Calibration is a comparison between a known measurement (the standard) and the measurement using your instrument.
+
+              in our process we will try to overlap the lane center and the frame center
+              and if they are showing separate just change the frame center by increasing or decreaing the value,
+            
+                void LaneCenter()
+                {
+                laneCenter = (RightLanePos-LeftLanePos)/2 +LeftLanePos;
+                frameCenter = 188;
+    
+                line(frameFinal, Point2f(laneCenter,0), Point2f(laneCenter,240), Scalar(0,255,0), 3);
+                line(frameFinal, Point2f(frameCenter,0), Point2f(frameCenter,240), Scalar(255,0,0), 3);
+                }
+            
+            o the next step is that we have to stear our car between the lanes for that we need a variable that tell us that how much we are offset from our frame center 
+              or how much is our difference between the frame center and the lane center.
+               
+                - Result = laneCenter-frameCenter;
+            
+            o After that we have to show this result on the main Frame for that we declare a string stream and in While loop define a data for StringStream and add some functionality 
+              first add some spacee then clear the previous stream after that add the Result on frame 
+              After that use the OpenCV functionality (PutText ) which help to put any text on the image which has 7 parameters 
+              first one is the input frame , next one is the string stream text, after that we have the position of text then we have the two default variables that defines the text type and the text scaling
+              and then the color of text and after that the width of text.
+                
+                - putText(frame, ss.str(), Point2f(1,50), 0,1, Scalar(0,0,255), 2);
+            
+    g. Master and slave device Communication :
+     
+       1. Now first of all we have to 
             
 
               
