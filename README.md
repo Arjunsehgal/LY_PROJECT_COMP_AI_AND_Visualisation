@@ -1502,6 +1502,87 @@ http://www.jcreview.com/fulltext/197-1593069401.pdf
 
           
 
+
+## Machine Learning :
+    1. Now We have to Work On Stop Detection ,  Obstacle Detection and Traffic Light detection 
+       .For That We have To create a samples and Train our Model and Get The desired OutPut.
+
+    2. In order to Deal with The sample We have to Use :
+        
+        a. Positive Samples : These are the samplles which we are going to the train and detect.
+
+        b. Negative Samples : These are the samples of which doesnot contain any of the object.
+    
+### 1. Stop Sign Detection :
+
+    1. Firstly make a stop sign of any dimension.
+    
+    2.  Now write a c++ code to Capture The Positive Images or stop sign images placed on track.
+
+    3. Similarly capture  the negative samples which contains no image of stop sign .
+
+    4. Now In order to train a model we have use a Cascade traing software 
+
+[*DownLoad Cascade Training Software*](http://amin-ahmadi.com/cascade-trainer-gui/) 
+
+    5. and After the successful installation crop all the positive images with only stop sign to detect and remove all the extra background.
+
+    6. Now Train The cascade Model For Stop Sign.
+
+    7. Now Load THe .XML file in our code .
+       for That :
+            void Stop_detection()
+            {
+              if(!Stop_Cascade.load("//home//pi//Desktop//MACHINE LEARNING//Stop_cascade.xml"))
+              {
+	          printf("Unable to open stop cascade file");
+               }
+            }
+    
+    8. As the file is loaded now we have to write a code to stop cascade file and and to detect the 
+       stop sign in C++.
+       For That :
+           void Stop_detection()
+           {
+                if(!Stop_Cascade.load("//home//pi//Desktop//MACHINE LEARNING//Stop_cascade.xml"))
+                {
+	             printf("Unable to open stop cascade file");
+                }
+    
+                RoI_Stop = frame_Stop(Rect(0,0,400,240));
+                cvtColor(RoI_Stop, gray_Stop, COLOR_RGB2GRAY);
+                equalizeHist(gray_Stop, gray_Stop);
+                Stop_Cascade.detectMultiScale(gray_Stop, Stop);
+    
+                for(int i=0; i< Stop.size(); i++)
+                  {
+	               Point P1(Stop[i].x, Stop[i].y);
+	               Point P2(Stop[i].x + Stop[i].width, Stop[i].y + Stop[i].height);
+	
+	               rectangle(RoI_Stop, P1, P2, Scalar(0, 0, 255), 2);
+	               putText(RoI_Stop, "Stop Sign", P1, FONT_HERSHEY_PLAIN, 1,  Scalar(0, 0, 255, 255), 2);
+	
+                  }
+    
+            }
+    
+    9. Now we have to calculate the distance between the car and the stop sign 
+       In order to do this we have to make the two equations and solve for finding the constant and slope of linear eqn.
+       for that :
+            
+            dist_Stop = (P2.x-P1.x); // ( in Pixels )
+        
+        Now get the two different diameteres and distance and find the slope and constant and use that value to find The approxiamate distance .
+          
+            y = mx + c ;
+        
+    10. Now Test The code by placing the stop sign accordingly.
+
+
+
+
+
+
 ## FeatureS
 
 |  UI  | Logic | Feature |
